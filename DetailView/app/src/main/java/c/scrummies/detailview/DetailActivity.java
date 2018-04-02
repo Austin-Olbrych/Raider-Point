@@ -12,6 +12,25 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
     }
+    
+    @SuppressLint("NewApi")
+    public void insert() {
+        Intent intent = new Intent(Intent.ACTION_INSERT,
+                CalendarContract.Events.CONTENT_URI);
+        // Add the calendar event details
+        intent.putExtra(CalendarContract.Events.TITLE, "Launch!");
+        intent.putExtra(CalendarContract.Events.DESCRIPTION,
+                "Learn Java Android Coding");
+        intent.putExtra(CalendarContract.Events.EVENT_LOCATION,
+                "Sanfoundry.com");
+        Calendar startTime = Calendar.getInstance();
+        startTime.set(2013, 8, 11);
+        intent.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME,
+                startTime.getTimeInMillis());
+        intent.putExtra(CalendarContract.EXTRA_EVENT_ALL_DAY, true);
+        // Use the Calendar app to add the new event.
+        startActivity(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
