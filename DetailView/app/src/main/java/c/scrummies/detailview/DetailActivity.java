@@ -11,6 +11,16 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+        
+        Button butinsert = (Button) findViewById(R.id.create_eventbut);
+        butinsert.setOnClickListener(new View.OnClickListener() {
+ 
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                insert();
+            }
+        });
     }
     
     @SuppressLint("NewApi")
