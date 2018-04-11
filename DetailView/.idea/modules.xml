@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DetailView.iml" filepath="$PROJECT_DIR$/DetailView.iml" />
+      <module fileurl="file://H:\CSC 492\RaiderPointGit\Raider-Point\DetailView\DetailView.iml" filepath="H:\CSC 492\RaiderPointGit\Raider-Point\DetailView\DetailView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://H:\CSC 492\RaiderPointGit\Raider-Point\DetailView\app\app.iml" filepath="H:\CSC 492\RaiderPointGit\Raider-Point\DetailView\app\app.iml" />
     </modules>
   </component>
 </project>
