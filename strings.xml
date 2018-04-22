@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Raider Point</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_date">Event Date</string>
+    <string name="event_desc">Event Description</string>
+    <string name="btn_cal">Add to Calendar</string>
+    <string name="event_loc">Event Location</string>
+
+</resources>
